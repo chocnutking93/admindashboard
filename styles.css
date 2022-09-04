@@ -73,8 +73,10 @@ img {
 
 input {
     background-color:rgb(82, 82, 82, 0.1);
-    width: 500px;
-    border-radius: 15px;
+    width: 700px;
+    height: 30px;
+    border-radius: 99em;
+
 }
 
 .user-icon img {
