@@ -236,8 +236,20 @@ input {
 .projects > div {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 8px 8px 16px 2px #1b3e59;
+    /* box-shadow: 8px 8px 16px 2px #1b3e59; */
     font-family: odinfont;
+}
+
+.projects > .card {
+   cursor: pointer;
+   transition:0.3s;
+   transform:translateX(-0.75em);
+   transition: transform 200ms;
+}
+
+.projects >.card:hover{
+    transform: none;
+    box-shadow: 8px 8px 16px 2px #1b3e59;
 }
 
 h1.title {
@@ -302,5 +314,4 @@ li{
 p.news{
     padding:1rem;
 }
-
 
